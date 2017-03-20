@@ -1,6 +1,8 @@
 # KV
 
-**TODO: Add description**
+This application is a noddy app created by following the elixir tutorial.
+
+I've just been looking into elixir and wanted to follow the guide, with a finished app I can reference when I'm done.
 
 ## Installation
 
