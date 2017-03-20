@@ -2,6 +2,14 @@ defmodule KV do
   @moduledoc """
   Documentation for KV.
   """
+  use Application
+
+  @doc """
+  Start up a supervisor when we start the KV application
+  """
+  def start(_type, _args) do
+    KV.Supervisor.start_link
+  end
 
   @doc """
   Hello world.
